@@ -18,3 +18,24 @@
   display: grid;
   grid-template-columns: 40px 40px;
 }
+
+aside div {
+  background-color: black;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 5px;
+}
+
+aside section {
+  border: 1px solid black;
+}
+
+.position {
+  background-color: red;
+  position: fixed;
+
+  right: 10px;
+  bottom: 10px;
+  z-index: 10;
+  opacity: 0.5;
+}
