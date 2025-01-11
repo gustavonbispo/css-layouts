@@ -39,3 +39,25 @@ aside section {
   z-index: 10;
   opacity: 0.5;
 }
+
+/* Variáveis */
+
+:root {
+  --bg-color: darkgreen;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.variavel {
+  --bg-color: lightgreen;
+  --text-color: black;
+  width: 100px;
+  height: 100px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  text-align: center;
+}
